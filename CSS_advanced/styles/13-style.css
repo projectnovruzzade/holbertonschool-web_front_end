@@ -76,7 +76,7 @@ a {
 }
 
 body,
-a {
+a[href] {
   color: var(--text-color);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
