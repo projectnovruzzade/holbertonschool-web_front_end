@@ -46,11 +46,13 @@ a {
   --section-header-align: center;
 }
 
-.section-tagline,
-.card-category,
 .section-header {
-  color: var(--color-primary);
   text-align: var(--section-header-align);
+}
+
+.section-tagline,
+.card-category {
+  color: var(--color-primary);
 }
 
 body,
